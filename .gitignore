@@ -1,0 +1,14 @@
+# ROS 2 build outputs
+build/
+install/
+log/
+
+# Python junk
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code / editor config
+.vscode/
+.idea/
+*.swp
