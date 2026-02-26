@@ -16,6 +16,9 @@ lerobot/
 SO-ARM100/
 so101_ws/
 
+# Misc local scratch / backups
+1111/
+
 # OS / editor
 .DS_Store
 *.swp

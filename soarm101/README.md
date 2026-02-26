@@ -7,11 +7,11 @@
 
 
 1. **SO-101（ROS 2 + MoveIt + RViz）**
-   - 我做了：搭建 ROS2 工作区，导入/维护机器人描述（URDF+mesh），生成 MoveIt 配置并在 RViz 里完成模型加载与路径规划可视化排错（TF / robot_state_publisher / joint_state_publisher）。
+   - 搭建 ROS2 工作区，导入/维护机器人描述（URDF+mesh），生成 MoveIt 配置并在 RViz 里完成模型加载与路径规划可视化排错（TF / robot_state_publisher / joint_state_publisher）。
    - 相关内容主要在：`so101_ws/src/soarm101_description/`、`so101_ws/src/soarm101_moveit_config/`、`tf/`、`notes/launch_debug_notes.txt`
 2. **使用 LeRobot 的现成遥操作做数采**
    - 复用 LeRobot 的工具链进行遥操作与相机采集验证，为后续数据集做准备。
-   - 相关内容主要在：`lerobot/outputs/captured_images/`（能看到 `opencv__dev_video*.png`）
+   - 相关内容主要在：`lerobot/outputs/captured_images/`
 3. **ACT / SmolVLA**
    - 按照 LeRobot 的训练入口运行 ACT/SmolVLA
 4. **VLA 微调**
@@ -25,14 +25,14 @@
 - **主臂/从臂**：leader arm 与 follower arm 的 teleop 设定
 - **舵机中位校准**：PWM 周期 20ms，高电平 1–2ms；1.5ms（1500µs）代表中位；不校准可能上电撞限位
 
-### 视觉采集
+### 数采
 
 - **双摄像头建议**：top view（俯视）+ side view（侧视）；桌面空间/画质会影响数据质量
 
 ### MoveIt + RViz（路径规划/可视化）
 
 - **目标**：MoveIt + RViz 能正常加载 SO-101，在 RViz 里可 plan/可视化
-- **常见坑**：TF/`robot_state_publisher`/`joint_state_publisher(_gui)` 的启动时序（详见 `PROJECT_LOG.md` 和 `notes/launch_debug_notes.txt`）
+（详见 `notes/moveit_rviz.md` 和 `notes/launch_debug_notes.txt`）
 
 ### 模仿学习：ACT / SmolVLA
 
