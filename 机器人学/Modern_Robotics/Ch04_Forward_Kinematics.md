@@ -1,4 +1,4 @@
-## Ch04_Forward_Kinematics 正运动学
+## Ch04 Forward_Kinematics 正运动学
 
 机器人**正运动学**：给定关节变量 $q$（角度/位移），计算末端执行器坐标系相对基座坐标系的位姿
 
