@@ -99,7 +99,7 @@ ros2 launch my_ros2_examples talker_listener.launch.py
 ros2 launch my_ros2_examples add_two_ints.launch.py
 ```
 
-也支持传参（示例）：
+也支持传参：
 
 ```bash
 ros2 launch my_ros2_examples talker_listener.launch.py topic:=chatter publish_hz:=5.0 message_prefix:="Hello"
