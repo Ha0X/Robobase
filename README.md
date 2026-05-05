@@ -10,8 +10,8 @@ Personal robotics study repository. Covers physical robot bring-up, ROS 2 fundam
 |---|---|
 | [`soarm101/`](./soarm101/) | SO-ARM101 low-cost arm: ROS 2 + MoveIt setup, LeRobot teleoperation, ACT/SmolVLA training |
 | [`ros2/my_ros2_examples/`](./ros2/my_ros2_examples/) | ROS 2 node examples: pub/sub, services, parameters, launch files |
-| [`机器人学/Modern_Robotics/`](./机器人学/Modern_Robotics/) | Study notes for Lynch & Park *Modern Robotics* (Ch 1–6, 9–10) |
-| [`机器人学/Control/`](./机器人学/Control/) | Control theory notes: PID, Kalman filter, MPC |
+| [`knowledge/Modern_Robotics/`](./knowledge/Modern_Robotics/) | Study notes for Lynch & Park *Modern Robotics* (Ch 1–6, 9–10) |
+| [`knowledge/Control/`](./knowledge/Control/) | Control theory notes: PID, Kalman filter, MPC |
 
 ---
 
