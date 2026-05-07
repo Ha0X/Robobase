@@ -1,8 +1,5 @@
 # Robobase
 
-Personal robotics study repository. Covers physical robot bring-up, ROS 2 fundamentals, and robotics theory (Modern Robotics textbook).
-
----
 
 ## Contents
 
